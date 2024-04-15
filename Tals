@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girlfriend's Beauty</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* white */
+            color: #000000; /* black */
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff99cc; /* baby pink */
+            text-align: center;
+        }
+        .photo-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+            justify-content: center;
+        }
+        .photo-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Beautiful Girlfriend</h1>
+    <div class="photo-container">
+        <!-- Insert your girlfriend's photos here -->
+    </div>
+</body>
+</html>
